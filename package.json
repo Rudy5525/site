@@ -1,9 +1,11 @@
 {
   "name": "site",
   "version": "1.0.0",
+  
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/Rudy5525/site/issues"
   },
-  "homepage": "https://github.com/Rudy5525/site#readme"
+  "homepage": "https://github.com/Rudy5525/site#readme",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "normalize.css": "^8.0.1"
+  }
 }
