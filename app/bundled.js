@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("alert(\"Hi, annoying alert!@#!@#\");\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
+eval("alert(\"Hi, annoying aler123t123\")\n\n//# sourceURL=webpack:///./app/assets/scripts/App.js?");
 
 /***/ })
 
