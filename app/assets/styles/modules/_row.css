@@ -1,24 +1,29 @@
 .row {
-   
+   text-align: center;
    @mixin clearfix{};
 
    &--gutters{
        padding-right: -65px;
    }
    @mixin atMedium{
-        margin-top: 1.5rem;
         &--gutters > div {
         padding-right:65px;
         }
-        &__medium-4 {
-            margin-top: 65px;
+        &__medium-4 {     
             float: left;
             width: 33.33%;
         }
+        &__medium-4--larger{
+            width: 37%;
+        }
 
         &__medium-8 {
+            text-align: left;
             float: left;
             width: 66.66%;
+        }
+        &__medium-8--smaller{
+            width: 63%;
         }
    }
    
